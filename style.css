@@ -74,6 +74,43 @@ header{
 }
 /* header section end */
 
+
+.f-gallary{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+    margin-left: 250px;
+    margin-right: 240px;
+
+}
+.f-gallary-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 25px;
+}
+
+.f-gallary-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 25px;
+    padding-right: 30px;
+}
+
+.fascination{
+    color: #E55473;
+}
+
+
+
+
+.f-gallary-main-pic{
+
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
 /* main section style hint */
 
 .hot-deal{
