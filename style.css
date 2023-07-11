@@ -249,6 +249,42 @@ footer{
     font-weight: 700;
 }
 
+
+
+/* servise section style  */
+.yet{
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 130px;
+    
+}
+
+.yet-text{
+
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 175px;
+
+
+}
+
+
+.yet-continer{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    
+
+    
+
+}
+
 /* newsletar section style */
 
 .newsletar{
@@ -268,13 +304,15 @@ text-align: center;
 
 }
 .newsletar input{
-    margin-bottom: 25px;
-    padding: 10px 25px;
-    color: #757575;
-    background:  #FFF;
-    border: 2px solid #E55473;
-
+    outline: none;
+    border: none;
+    margin: 0 5px;
+    border-radius: 7px;
+    padding: 15px 27px;
 }
+
+
+
 .newsletar {
     padding: 150px;
     border-radius: 8px;
@@ -285,3 +323,23 @@ text-align: center;
     margin-bottom: 130px;
   
 }
+
+
+
+.submitInput{
+    width: 60%;
+    color: #757575;
+    background:  #fff;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.100);
+}
+
+.submitBtn{
+    color: #fff;
+    background-color: #E55473;
+    width: 12%;
+}
+
+
+/* .inputWrapper{
+    background-color: yellow;
+} */
