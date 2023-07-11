@@ -209,19 +209,24 @@ footer{
     
 
 }
-.set-tree-img1{
+.set-tree-img{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     width: 100%;
 
 }
-.set-tree-img2{
+
+.img1bg{
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     width: 100%;
 }
 
-.set-tree-img3{
+.img2bg{
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
     width: 100%;
@@ -242,4 +247,41 @@ footer{
     color: #272727;
     font-size: 24px;
     font-weight: 700;
+}
+
+/* newsletar section style */
+
+.newsletar{
+text-align: center;
+}
+.newsletar-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.newsletar-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 40px;
+
+}
+.newsletar input{
+    margin-bottom: 25px;
+    padding: 10px 25px;
+    color: #757575;
+    background:  #FFF;
+    border: 2px solid #E55473;
+
+}
+.newsletar {
+    padding: 150px;
+    border-radius: 8px;
+    background: url('/Flower Asset/Rectangle 9.png');
+    background-repeat: no-repeat;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-bottom: 130px;
+  
 }
